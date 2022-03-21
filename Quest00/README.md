@@ -28,3 +28,15 @@
 ## Advanced
 * SRE(Site Reliability Engineering)는 어떤 개념일까요?
 * 미래의 데브옵스 직무는 어떻게 변화할까요? 여러 가지 미래를 상상해 봅시다!
+
+## Plus
+* Agile and DevOps
+
+| | Agile | DevOps |
+| :---: | :---: | :---: |
+| 정의 | lean management 제공 방식, 사용자 요구사항 우선 | 개발과 운영의 통합 |
+| 철학 | fail-fast, 적응성, 고객 요구 응대 | 효율성, 자동화, 프로세스 개선 |
+| 범위 | 개발 | 개발, 운영 및 품질 관리 전반 |
+
+
+> 같이 사용해야 한다.
