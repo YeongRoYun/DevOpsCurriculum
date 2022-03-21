@@ -11,8 +11,41 @@
 
 ## Checklist
 * 만약 비개발자에게 데브옵스가 무엇인지 설명하게 된다면 어떻게 설명할 수 있을까요?
+  > 상품 공급망을 자동화해 안정적인 서비스를 고객에게 제공하는 것
 * 데브옵스라는 개념 이전의 소프트웨어 개발은 어땠을까요? 어떤 요구사항을 충족하기 위해 데브옵스라는 개념이 생겼을까요?
+  > 개발과 운영이 분리되어 있었다. 피드백이 적용되는 기간이 상대적으로 길었고, 이를 해결하기 위해 개발과 운영을 통합할 필요가 발생했다.
+
+  > 수동으로 개발 및 서비스를 할 때의 실수가 잦아, 이를 자동화할 필요가 생겼다.
+
+  > 인프라 구성 비용을 줄이고, 필요한 서비스를 빠르게 제공할 필요가 발생했다. 
+
 * 데브옵스 엔지니어가 따로 존재하는 조직과 따로 존재하지 않는 조직은 각각 어떤 장단점을 가지고 있을까요?
+  > DevOps Engineer가 있는 조직
+    - 장점
+      1. Faster product release and faster time to market
+      2. Higher productivity
+      3. Process efficiency
+      4. Shortened production cycles
+      5. Better operaional support
+      6. Engaged and motivated staff
+      7. Better Customer experience management
+      8. Clear product vision within the team
+      9. Increased deployment success rate
+      10. Increased product quality
+      11. Better team efficiency
+      12. Improved flexibility and support
+      13. Reduced chance of product failure
+      14. Cross-skilling and self-improvement
+    - 단점
+      1. Demands proper mindset across the company
+      2. Lowered business security by outsourcing the DevOps operations
+      3. Dealing with the legacy system is a challenge
+      4. Practicing security for CI/CD is a separate affair
+      5. Getting the right pool of DevOps expertise is a challenge
+      6. Challenges with the number of tools and switching tools
+      7. Transition challenges(organizational and technical)
+  > DevOps Engineer가 없는 조직
+    - In reverse
 
 ## Quest
 * 발급받은 AWS 계정에 접속해 봅니다.
