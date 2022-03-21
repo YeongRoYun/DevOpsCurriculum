@@ -60,7 +60,15 @@
 
 ## Advanced
 * SRE(Site Reliability Engineering)는 어떤 개념일까요?
+  - construct useful and reliable sites for developments and operations
+  - Principles
+    1. Automation or elimination of anything repetitive that's also cost-effective to automate or eliminate
+    2. Avoidance to pursue much more reliability than what's strictly necessary. Defining what's necessary is a practive by itself
+    3. Systems design with a bias toward reduction of risks to availability, latency, and efficiency
+    4. Observability, as in, the ability to be able to ask arbitrary questions about your system without having to know ahead of time what you wanted to ask 
+
 * 미래의 데브옵스 직무는 어떻게 변화할까요? 여러 가지 미래를 상상해 봅시다!
+  > 필요불가결한 기술이 될 것
 
 ## Plus
 * Agile and DevOps
