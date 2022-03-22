@@ -24,7 +24,7 @@ function makePyramid(n) {
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end(makePyramid(50));
+  res.end(makePyramid(parseInt(process.argv[2])));
 });
 
 server.listen(port, hostname, () => {
