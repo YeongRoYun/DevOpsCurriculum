@@ -24,7 +24,18 @@
 
 * `node.js는 V8 엔진 위에 만들어진 자바스크립트 런타임이다`라는 문장을 뜯어 보면 어떤 의미일까요?
   1. V8 engine
-     - Opensourc
+     - Opensource Javascript engine inside browsers
+     - Use JIT
+  
+  2. Javascript
+     - Single thread, Non-blocking language
+  
+  3. Runtime
+     - Environment running programing languages
+  
+  4. Node.js
+     - V8 engine을 이용해 backend를 javascript runtime으로 구현할 수 있는 tool
+     - Web API를 이용해 Single thread, Non-blocking을 유지한다.
 
 * 사람의 언어에 가까운 프로그램 코드를 어떻게 컴퓨터가 실행시킬까요? 그 과정은 무엇일까요?
 * node.js가 자바스크립트 코드를 리눅스, 윈도우, 맥OS 어느 곳에서든 똑같이 실행할 수 있는 이유는 무엇일까요?
@@ -69,3 +80,4 @@ $ node quest02.js 5
 * Single Thread I/O and Non-blocking event loop(https://url.kr/fkh8ut, https://url.kr/zwfcqd)
 
   - Reduce multithread hazards and imitate multithread environment.
+  - Use kernel threads instead of creating threads.
