@@ -57,7 +57,12 @@ $ node quest02.js 5
 
 ## Advanced
 * 퀘스트의 코드를 더 구조화하고, 중복을 제거하고, 각각의 코드 블록이 한 가지 일을 전문적으로 잘하게 하려면 어떻게 해야 할까요?
+  > Refactoring...
+
 * 함수형 프로그래밍이란 어떤 컨셉일까요? 어떤 특징들을 가지고 있을까요?
+  > Treat function as first-class-citizen
+  
+  > Use lambda calculus to manage syntax and semantic
 
 ## Plus
 * Blocking and Non-blocking, Syncronous and Asyncronous(https://url.kr/e9nik7)
