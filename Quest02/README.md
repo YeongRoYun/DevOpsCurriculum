@@ -38,7 +38,10 @@
      - Web API를 이용해 Single thread, Non-blocking을 유지한다.
 
 * 사람의 언어에 가까운 프로그램 코드를 어떻게 컴퓨터가 실행시킬까요? 그 과정은 무엇일까요?
+  > Parsing code, compile parsed code, link binary code with lld, execute it.
+
 * node.js가 자바스크립트 코드를 리눅스, 윈도우, 맥OS 어느 곳에서든 똑같이 실행할 수 있는 이유는 무엇일까요?
+  > Use VM
 
 ## Quest
 * node.js 최신 LTS 버전을 설치합니다.
