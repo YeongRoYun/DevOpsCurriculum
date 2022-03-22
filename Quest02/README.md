@@ -22,7 +22,7 @@
   
   > Include HTTP server libraries, so be able to run without extra services, s.t Apach, and control server.
 
-* `node.js는 V8 엔진 위에 만들어진 자바스크립트 런타임이다`라는 문장을 뜯어 보면 어떤 의미일까요?
+* `node.js는 V8 엔진 위에 만들어진 자바스크립트 런타임이다`라는 문장을 뜯어 보면 어떤 의미일까요?(https://url.kr/omdkfn)
   1. V8 engine
      - Opensource Javascript engine inside browsers
      - Use JIT
