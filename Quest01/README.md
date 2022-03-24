@@ -52,10 +52,33 @@
   
 
 * 리눅스의 권한 체계는 어떻게 이루어져 있나요?
-  > a
+  1. Ownership
+     - onwer user group user
+  3. Permission
+     1. special
+        1. setuid(4000): treat as file owner
+        2. setgrp(2000): treat as file group
+        3. sticky bit(1000): treat directory as board
+     2. user
+        - read(0400), write(0200), execute(0100)
+     3. group
+        - read(0040), write(0020), execute(0010)
+     4. others
+        - read(0004), write(0002), execute(0001)
+    
 * 프로세스와 쓰레드는 무엇인가요?
+  > Process: a active entity in memory
+  
+  > Thread: a component of process, sharing all except stack 
+
 * 현재 실행되고 있는 프로세스들 중 PID가 1인 프로세스는 어떤 역할을 할까요? init과 systemd는 무엇이고 어떻게 다른가요?
+  > launchd(on Mac) initialize OS after executing kernel
+  
+  > init is old version(hard code), systemd is new version(event driven)
+
 * 파일시스템이란 무엇일까요? 어떤 것이 있을까요? 지금 다루는 운영체제는 어떤 파일시스템을 쓰고 있나요?
+  > 
+
 * 리눅스의 배포판이란 무엇일까요? 여러 가지 배포판들은 어떻게 생겨났을까요?
 * 리눅스의 패키지 시스템이란 무엇일까요? 이러한 시스템이 생긴 이유는 무엇일까요? deb과 rpm은 어떤 차이가 있을까요? RPM이 있는데 yum과 같은 시스템이 나온 이유는 무엇일까요?
 * vi는 어떤 에디터인가요? vi와 vim은 어떻게 다를까요? vi는 왜 모든 리눅스의 기본 에디터가 되었을까요?
@@ -76,7 +99,12 @@
 
 ## Advanced
 * 리눅스 외의 POSIX 호환 운영체제에는 어떤 것들이 있을까요? 그러한 운영체제들은 어떤 용도로 쓰일까요?
+  > OS X for Mac
+  
+  > VxWorks for RTOS
+
 * 윈도우를 제외하고, 최근에 발표된 운영체제들 중 POSIX에 호환되지 않는 운영체제도 있을까요?
+  > Very Minor
 
 ## Plus
 * pipeline and redirection
@@ -94,3 +122,8 @@
   1. search : Ctrl + R
   2. !! : expansion last
   3. Alt+. / $_ : recall last
+
+* POSIX
+  > Portable Operator System Interface
+  
+  > If OS follows POSIX, then it is called UNIX-like
