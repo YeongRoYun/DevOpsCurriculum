@@ -77,11 +77,28 @@
   > init is old version(hard code), systemd is new version(event driven)
 
 * 파일시스템이란 무엇일까요? 어떤 것이 있을까요? 지금 다루는 운영체제는 어떤 파일시스템을 쓰고 있나요?
-  > 
+  > Medium between pysical files(h/w) and logical files(user)
+  
+  >APFS(Apple File System) is general FS for Apple devices.
 
 * 리눅스의 배포판이란 무엇일까요? 여러 가지 배포판들은 어떻게 생겨났을까요?
+  1. Linux Deistribution(a.k.a distro)
+     - OS based on linux kernel, gnu software, and BSD ...
+  2. Types of distro
+     1. Redhat Linux is managed by Redhat enterprise
+     2. Debian is managed by community
+     3. Too many distro is created even at this moment
+
 * 리눅스의 패키지 시스템이란 무엇일까요? 이러한 시스템이 생긴 이유는 무엇일까요? deb과 rpm은 어떤 차이가 있을까요? RPM이 있는데 yum과 같은 시스템이 나온 이유는 무엇일까요?
+  1. Package Management System
+     - automatize to install, uninstall, update, configure, .. program
+     - manage distro by archiving
+  
+
 * vi는 어떤 에디터인가요? vi와 vim은 어떻게 다를까요? vi는 왜 모든 리눅스의 기본 에디터가 되었을까요?
+  > vi is visual editor including BSD and BSD becomes to one of foundations
+  
+  > vim(vi iMproved) can be colored
 
 ## Quest
 * 인스턴스 생성
