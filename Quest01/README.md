@@ -38,16 +38,21 @@
 * 리눅스의 파이프 문자는 어떤 역할을 하나요?
   > command1 | command2 | command3 :  The output of command1 becomes to the input of command2, the output of command2 becomes to the input of command3, go on..
   
-* 리눅스의 셸은 어떤 역할을 하나요? bash와 zsh는 어떻게 다른가요?
+* 리눅스의 셸은 어떤 역할을 하나요? bash와 zsh는 어떻게 다른가요?(https://url.kr/pzhtg6)
   > A shell is an interpreter between a terminal and users.
 
   | | Bash | Zsh |
   | :---: | :---: | :---: |
   | Configuration file | .bashrc in non-login shell, .hash_profile in login shell | .zshrc in both login and non-login shell, .zprofile in login shell |
   | Key binding | .inputrc and bind builtin to readline commands | bindkey builitin to zle widgets |
-  | Prompt | 
+  | Prompt | $ | % |
+  | command history | inner machanism | inner machanism |
+  | Completion | bash_completion | compinit |
+  | Scripting | starting index(0) | starting index(1) |
+  
 
 * 리눅스의 권한 체계는 어떻게 이루어져 있나요?
+  > a
 * 프로세스와 쓰레드는 무엇인가요?
 * 현재 실행되고 있는 프로세스들 중 PID가 1인 프로세스는 어떤 역할을 할까요? init과 systemd는 무엇이고 어떻게 다른가요?
 * 파일시스템이란 무엇일까요? 어떤 것이 있을까요? 지금 다루는 운영체제는 어떤 파일시스템을 쓰고 있나요?
@@ -75,6 +80,17 @@
 
 ## Plus
 * pipeline and redirection
-  > pipeline is used to connect commands in sequence
+  1. pipeline is used to connect commands in sequence
 
-  > redirection is used to redirect I/O direction of a command 
+  2. redirection is used to redirect I/O direction of a command 
+
+* bindkey
+  1. bind keys for zle(zsh line editor) widgets
+  2. use main Map as a default Map
+  3. -e : emacs mode, -v : vi mode
+  4. -A Map main to use Map as a main(main is a symbolic link)
+
+* history
+  1. search : Ctrl + R
+  2. !! : expansion last
+  3. Alt+. / $_ : recall last
