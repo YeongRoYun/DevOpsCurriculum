@@ -36,7 +36,17 @@
 
 ## Checklist
 * 리눅스의 파이프 문자는 어떤 역할을 하나요?
+  > command1 | command2 | command3 :  The output of command1 becomes to the input of command2, the output of command2 becomes to the input of command3, go on..
+  
 * 리눅스의 셸은 어떤 역할을 하나요? bash와 zsh는 어떻게 다른가요?
+  > A shell is an interpreter between a terminal and users.
+
+  | | Bash | Zsh |
+  | :---: | :---: | :---: |
+  | Configuration file | .bashrc in non-login shell, .hash_profile in login shell | .zshrc in both login and non-login shell, .zprofile in login shell |
+  | Key binding | .inputrc and bind builtin to readline commands | bindkey builitin to zle widgets |
+  | Prompt | 
+
 * 리눅스의 권한 체계는 어떻게 이루어져 있나요?
 * 프로세스와 쓰레드는 무엇인가요?
 * 현재 실행되고 있는 프로세스들 중 PID가 1인 프로세스는 어떤 역할을 할까요? init과 systemd는 무엇이고 어떻게 다른가요?
@@ -62,3 +72,9 @@
 ## Advanced
 * 리눅스 외의 POSIX 호환 운영체제에는 어떤 것들이 있을까요? 그러한 운영체제들은 어떤 용도로 쓰일까요?
 * 윈도우를 제외하고, 최근에 발표된 운영체제들 중 POSIX에 호환되지 않는 운영체제도 있을까요?
+
+## Plus
+* pipeline and redirection
+  > pipeline is used to connect commands in sequence
+
+  > redirection is used to redirect I/O direction of a command 
