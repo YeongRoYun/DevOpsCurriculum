@@ -93,6 +93,10 @@
   1. Package Management System
      - automatize to install, uninstall, update, configure, .. program
      - manage distro by archiving
+  2. .deb is the package extender and .rpm is the redhat package extender
+  3. yum is pacakge management system for redhat resolving the package dependency.
+     - rpm can't resolve the package dependency. So, user must manually install all required packages
+     - yum resolve the package dependency. So, user doesn't care about it.
   
 
 * vi는 어떤 에디터인가요? vi와 vim은 어떻게 다를까요? vi는 왜 모든 리눅스의 기본 에디터가 되었을까요?
@@ -144,3 +148,10 @@
   > Portable Operator System Interface
   
   > If OS follows POSIX, then it is called UNIX-like
+
+* PMS
+
+| | Redhat | Debian |
+| :---: | :---: | :---: |
+| low-level | rpm | dpkg |
+| high-level | yum | apt |
